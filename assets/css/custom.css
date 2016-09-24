@@ -1,0 +1,10 @@
+body{
+    background-color: white;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    padding-top: 45px;
+}
