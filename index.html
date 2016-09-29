@@ -37,25 +37,25 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Who We Are</a></li>
-                <li><a href="#">Suppliers</a></li>
-                <li><a href="#">Buyers</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#access-div">Who We Are</a></li>
+                <li><a href="#international-header-div">Suppliers</a></li>
+                <li><a href="#us-div">Buyers</a></li>
+                <li><a href="#contact-div">Contact Us</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 <div class="container">
-    <div class="row">
+    <div id="access-div" class="row">
         <div class="col-lg-8">
             <h1>Creating Access to Healthy Lifestyle Brands</h1>
             <p>We launch and grow supplier brands worldwide and are a one-stop shop for our customers looking for niche products in the better for you space: personal, wellness, and home care products, all sourced from ethical and highly vetted manufacturers.</p>
             <div class="row">
                 <div class="col-lg-3">
-                    <button class="btn">Become A Supplier</button>
+                    <a href="#international-header-div" class="button-style btn btn-primary">Become A Supplier</a>
                 </div>
                 <div class="col-lg-3">
-                    <button class="btn">Become a Customer</button>
+                    <a href="#us-div" class="button-style btn btn-primary">Become a Customer</a>
                 </div>
             </div>
         </div>
@@ -64,14 +64,14 @@
         </div>
     </div>
 
-    <div class="row">
+    <div id="ingredient-div" class="row">
         <div class="col-lg-6">
             <h3>CLEAN AND TRANSPARENT INGREDIENTS</h3>
             <div class="row">At Export Origins our philosophy is rooted in sustainable healthy living for greater longevity, wellness, and happiness. We have combined our passion and expertise to offer a curated selection of pure, ethically sourced, and premium quality products from our U.S. partners. We are passionate about advancing international trade in a sustainable way; and it is our goal to facilitate access of better-for-you products for everyone to enjoy without compromising our
                 people, environment, and animals.
             </div>
         </div>
-        <div class="col-lg-6">
+        <div id="icon-left" class="col-lg-6">
             <div class="row">
                 <div class="col-lg-6">
                     <img class="img-responsive ingredients" src="assets/img/allnatural.png">
@@ -99,10 +99,10 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div id="launch-div" class="row">
         <h2 class="text-center">WE LAUNCH & GROW BRANDS GLOBALLY</h2>
     </div>
-    <div class="row">
+    <div id="launch-div-p" class="row">
         <p>Export Origins is an international distributor of U.S. natural, eco-friendly, and better-for-you brands responsibly sourced from nature for personal, home, and nutraceutical applications. Our products come from suppliers that are committed to using natural or recycled materials and ingredients to reduce our carbon footprint. We focus on products that help people live a sustainable, balanced, and healthy life in the following 6 categories:
         </p>
     </div>
@@ -171,7 +171,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div id="international-header-div" class="row">
         <div class="col-lg-12">
             <h2 class="text-center">WE ARE YOUR INTERNATIONAL DISTRIBUTOR</h2>
         </div>
@@ -182,7 +182,7 @@
             </p>
         </div>
     </div>
-    <div class="row">
+    <div id="international-div" class="row">
             <div class="col-lg-4">
                 <img id="iconicWorld" class="img-responsive" src="assets/img/globalOne.png">
                 <h5>Global Distribution Strategy</h5>
@@ -193,8 +193,7 @@
             <div class="col-lg-4">
                 <img class="img-responsive iconic" src="assets/img/salesOne.png">
                 <h5>Sales & Marketing</h5>
-                <p>Our expert multilingual sales and marketing team’s #1 priority is to develop leads into customers, as well as maintain which translate into repeat orders and market
-                    growth.</p>
+                <p>Our expert multilingual sales and marketing team's #1 priority is to develop leads into customers. Secondly, to deliver great customer service in order to build a strong relationship with our customers, and thus generate repeat business and market growth.</p>
             </div>
             <div class="col-lg-4">
                 <img class="img-responsive iconic" src="assets/img/logisticsOne.png">
@@ -205,12 +204,12 @@
     </div>
     <div class="row">
         <div class="col-lg-12 text-center">
-            <button class="btn">Become a Supplier</button>
+            <a href="#contact-div" class="button-style btn btn-primary">Become A Supplier</a>
         </div>
     </div>
-    <div class="row">
+    <div id="us-div" class="row">
         <div class="col-lg-12">
-            <h2 class="text-center"> <img src="assets/img/usaFlag.png">WE ARE YOUR U.S. SOURCING OFFICE</h2>
+            <h2 class="text-center"> <img id="us-flag" src="assets/img/usaFlag.png">WE ARE YOUR U.S. SOURCING OFFICE</h2>
         </div>
     </div>
     <div class="row">
@@ -219,27 +218,27 @@
             </p>
         </div>
     </div>
-    <div class="row">
+    <div id="us-div-list" class="row">
         <div class="col-lg-12">
-            <div>
-                <div align="left">Quality Products from our Network of Carefully Selected US Suppliers</div>
-                <div align="left">Export Delivered Pricing to your Seaport</div>
-                <div align="left">Access to Creative and Secure Financing</div>
-                <div align="left">Marketing Support for Qualified Brands/Products</div>
-                <div align="left">Supplier Management for Private Label Product Development</div>
-                <div align="left">Domestic & International Logistics, Inventory, and Warehousing Services</div>
-                <div align="left">Custom Clearance Documentation, Product Analysis, and Certification</div>
-            </div>
+            <ul id="us-div-list-items">
+                <li >Quality Products from our Network of Carefully Selected US Suppliers</li>
+                <li>Export Delivered Pricing to your Seaport</li>
+                <li>Access to Creative and Secure Financing</li>
+                <li>Marketing Support for Qualified Brands/Products</li>
+                <li>Supplier Management for Private Label Product Development</li>
+                <li>Domestic & International Logistics, Inventory, and Warehousing Services</li>
+                <li>Custom Clearance Documentation, Product Analysis, and Certification</li>
+            </ul>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-12 text-center">
-            <button class="btn">Become a Customer</button>
+            <a href="#contact-div" class="button-style btn btn-primary">Become A Customer</a>
         </div>
     </div>
 
-    <div class="row">
-        <form class="form-horizontal">
+    <div id="contact-div" class="row">
+        <form action="mailto:elconquistador@berkeley.edu" method="POST" enctype="text/plain" class="form-horizontal">
             <fieldset>
 
                 <!-- Form Name -->
@@ -315,5 +314,5 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
-<footer class="footer"></footer>
+<footer id="footer-div" class="footer text-center"><p>Export Origins, Inc. | Long Beach, CA | info@exportorigins.com | All rights reserved @2016 </p></footer>
 </html>
