@@ -1,10 +1,38 @@
 body{
     background-color: white;
 }
+#plant{
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.ingredients {
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.iconic {
+    height: auto;
+    width: auto;
+    max-width: 50px;
+    max-height: 50px;
+}
+#iconicWorld {
+    height: auto;
+    width: auto;
+    max-width: 25px;
+    max-height: 25px;
+}
+
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
     padding-top: 45px;
+    font-family: "Proxima Nova";
 }
