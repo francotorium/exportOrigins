@@ -1,0 +1,26 @@
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+#plant{
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+    margin-left:150px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    padding-top: 45px;
+    font-family: "Proxima Nova";
+}
+.navbar-inverse {
+    margin-bottom: 10px;
+}
+.button-style {
+    background-color: #57AB40;
+    margin: 10px;
+}
+
+#footer-div-main{
+    margin-top:200px;
+}
